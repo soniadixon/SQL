@@ -10,8 +10,14 @@ INSERT INTO pet_store VALUES (5, "Food Bowl", 22, "Cat", 6.99);
 INSERT INTO pet_store VALUES (6, "Drink Bowl", 18, "Cat", 6.99);
 INSERT INTO pet_store VALUES (7, "Leash", 42, "Dog", 12.99);
 INSERT INTO pet_store VALUES (8, "Leash", 29, "Cat", 9.99);
-INSERT INTO pet_store VALUES (9, "Grain free diet", 12, "Dog", 49.99);
-INSERT INTO pet_store VALUES (10, "Low Calorie diet", 8, "Dog", 42.99);
+INSERT INTO pet_store VALUES (9, "Chew Toy", 12, "Dog", 49.99);
+INSERT INTO pet_store VALUES (10, "Peanut Butter Treats", 8, "Dog", 42.99);
 INSERT INTO pet_store VALUES (11, "Litter Box", 27, "Cat", 32.99);
 INSERT INTO pet_store VALUES (12, "Rain Coat", 18, "Dog", 24.99);
-INSERT INTO pet_store VALUES (13, "Cat Tree", 3, "Cat", 56.49)
+INSERT INTO pet_store VALUES (13, "Cat Tree", 3, "Cat", 56.49);
+INSERT INTO pet_store VALUES (14, "Sweaters", 8, "Dog", 18.99);
+INSERT INTO pet_store VALUES (15, "Shirts", 20, "Dog", 9.99);
+
+SELECT SUM(quantity) FROM pet_store;
+
+
