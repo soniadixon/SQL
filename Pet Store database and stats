@@ -18,6 +18,7 @@ INSERT INTO pet_store VALUES (13, "Cat Tree", 3, "Cat", 56.49);
 INSERT INTO pet_store VALUES (14, "Sweaters", 8, "Dog", 18.99);
 INSERT INTO pet_store VALUES (15, "Shirts", 20, "Dog", 9.99);
 
+--Displayed total sum of quantity of items
 SELECT SUM(quantity) FROM pet_store;
 
 
